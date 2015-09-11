@@ -1,5 +1,6 @@
 var findAndReplace = function(text, search, replace) {
-  return replace;
+  var results = text.replace(search, replace);
+  return results;
 };
 
 

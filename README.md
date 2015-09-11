@@ -1,6 +1,6 @@
 # Find and Replace
 
-##### a website where users enter a string, choose a word to find, and provide a replacement for that word, started 09/11/2015
+##### a website for finding and replacing a word in a string, started 09/11/2015
 
 
 #### By Dillon Lloyd Lee
@@ -13,12 +13,13 @@ This program is the JavaScript BDD Code Review for Epicodus, week six.  It is a 
 ## Setup
 
 * _Clone directory from "https://github.com/DillonLloydLee/Find_and_Replace.git"_
-
-* _That's it!  Run this program from the root web page and follow onscreen directions._
+* _For a Mac, run the terminal command "$composer install" in the top level of the cloned directory._
+* _Also run "$PHP -S localhost:8000" from the top level of the directory.  In your web browser address bar, go to "localhost:8000/find.html"._
+* _That's it!  Run this program from the page and follow onscreen directions._
 
 ## Technologies Used
 
-JavaScript.
+JavaScript, Mocha, Chai, jQuery, HTML, CSS.
 
 
 ### Legal

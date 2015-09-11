@@ -18,3 +18,7 @@ input.form-control {
     width: 325px;
     margin-left: 25px;
 }
+
+.results {
+  display: none;
+}

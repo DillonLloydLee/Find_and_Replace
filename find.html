@@ -19,31 +19,35 @@
       <p> - Dillon</p>
       <br>
 
-      <form>
-        <div class="form-group">
-            <label for="text">Enter some text:</label>
-            <input id="text" class="form-control" type="text"
-                required autofocus placeholder="buncha words">
-        </div>
+      <div class="data-entry">
+        <form id="replacer">
+          <div class="form-group">
+              <label for="text">Enter some text:</label>
+              <input id="text" class="form-control" type="text"
+                  required autofocus placeholder="buncha words">
+          </div>
 
-        <div class="form-group">
-            <label for="search">Enter a search word:</label>
-            <input id="search" class="form-control" type="text"
-                required placeholder="single word">
-        </div>
+          <div class="form-group">
+              <label for="search">Enter a search word:</label>
+              <input id="search" class="form-control" type="text"
+                  required placeholder="single word">
+          </div>
 
-        <div class="form-group">
-            <label for="replace">Enter a replacement word:</label>
-            <input id="replace" class="form-control" type="text"
-                required placeholder="different single word">
-        </div>
+          <div class="form-group">
+              <label for="replace">Enter a replacement word:</label>
+              <input id="replace" class="form-control" type="text"
+                  required placeholder="different single word">
+          </div>
 
-        <button type="submit">SUBMIT</button>
+          <button type="submit">SUBMIT</button>
 
-      </form>
+        </form>
+      </div>
 
-
-
+      <div class="results">
+        <h3>Here is your resulting text:</h3><br><br>
+        <p>TEXT</p>
+      </div>
 
     </div>
   </body>

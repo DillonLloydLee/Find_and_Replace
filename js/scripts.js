@@ -1,5 +1,5 @@
 var findAndReplace = function(text, search, replace) {
-  return "a";
+  return replace;
 };
 
 

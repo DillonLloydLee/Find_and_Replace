@@ -11,6 +11,8 @@ $(document).ready(function() {
 
     var result = findAndReplace(text, search, replace);
 
+    $(".result-text").append(result);
+
     $(".results").fadeToggle();
     $(".data-entry").slideToggle();
 

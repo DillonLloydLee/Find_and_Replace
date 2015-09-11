@@ -15,6 +15,7 @@ This program is the JavaScript BDD Code Review for Epicodus, week six.  It is a 
 * _Clone directory from "https://github.com/DillonLloydLee/Find_and_Replace.git"_
 * _For Mac users: run "$PHP -S localhost:8000" from the top level of the directory._
 * _In your web browser address bar, go to "localhost:8000/find.html"._
+* _If you would like to run tests, open the spec/spec-runner.html file in your web browser._
 * _That's it!  Run this program from the page and follow onscreen directions._
 
 ## Technologies Used

@@ -1,5 +1,6 @@
 var findAndReplace = function(text, search, replace) {
-  var results = text.replace(search, replace);
+  var regularSearch = new RegExp(search, 'g');
+  var results = text.replace(regularSearch, replace);
   return results;
 };
 
